@@ -8,7 +8,6 @@ mu=0.001;
 L=3;
 [d,sstbbpkc,W] = LMS( X,Y,mu,L );
 
-% Hau copy cac rmse trong truong h?p dung HQTT vao dong duoi day nhe
 rmse_hqtt1=[0.046518667	0.034546667	0.02698	0.118968	0.18684	0.187384	0.111272	0.120652];
 rmse_hqtt2=[0.118598667	0.131958667	0.106998667	0.120438667	0.180806667	0.241410667	0.198124	0.097922667
 ]
